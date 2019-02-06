@@ -1,0 +1,4 @@
+# Ignore compiled classes
+src/*/*.class
+# ignore compiled jars
+src/*.jar
