@@ -1,6 +1,6 @@
 package snackBar;
 
-class Customer {
+public class Customer {
   private static int currentId = 0;
   private int id;
   private String name;

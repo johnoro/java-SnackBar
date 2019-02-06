@@ -15,14 +15,17 @@ vending machines where a person buys snacks from those machines.
 
 # Instructions
 
-Snack has id, name, quantity, cost, vending machine id\
-Snack can set name, get quantity, add quantity given quantity, buy snack given quantity, get total cost given a quantity.
+- [ ] Snack class
+* Snack has id, name, quantity, cost, vending machine id\
+* Snack can set name, get quantity, add quantity given quantity, buy snack given quantity, get total cost given a quantity.
 
-Vending machine has id, name\
-Vending Machine set and return name
+- [ ] Vending machine class
+* Vending machine has id, name\
+* Vending Machine set and return name
 
-Customer has id, name, cash on hand\
-Customer can add cash, buy given total cash used in purchase, get and set name, get cash on hand.  
+- [x] Customer class
+* Customer has id, name, cash on hand\
+* Customer can add cash, buy given total cash used in purchase, get and set name, get cash on hand.  
 
 * Instantiate 2 customers
     - [ ] Jane with $45.25
