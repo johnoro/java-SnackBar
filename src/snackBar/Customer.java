@@ -31,11 +31,19 @@ public class Customer {
     cashOnHand += amount;
   }
 
-  public void buy(double cost) {
-    cashOnHand -= cost;
+  public void printCash() {
+    System.out.println(name + "'s cash on hand: " + cashOnHand);
+  }
+
+  public void buy(Snack snack, int amount) {
+    cashOnHand -= snack.getTotal(amount);
+    snack.buy(amount);
     if (cashOnHand < 0) {
       System.out.println("Weee wooo, wee woo! \n" +
                         "The cops are after ya, no bankruptcy here!");
     }
+
+    printCash();
+    snack.printQuantity();
   }
 }

@@ -18,15 +18,15 @@ vending machines where a person buys snacks from those machines.
 ### Classes
 
 - [x] Snack class
-    * Snack has id, name, quantity, cost, vending machine id\
+    * Snack has id, name, quantity, cost, vending machine id.
     * Snack can set name, get quantity, add quantity given quantity, buy snack given quantity, get total cost given a quantity.
 
 - [x] Vending machine class
-    * Vending machine has id, name\
+    * Vending machine has id, name.
     * Vending Machine set and return name
 
 - [x] Customer class
-    * Customer has id, name, cash on hand\
+    * Customer has id, name, cash on hand.
     * Customer can add cash, buy given total cash used in purchase, get and set name, get cash on hand.
 
 
@@ -51,10 +51,10 @@ vending machines where a person buys snacks from those machines.
 	
 ### Processing
 
-- [ ] Customer 1 buys 3 of snack 4. Print Customer 1 Cash on hand. Print quantity of snack 4.
-- [ ] Customer 1 buys 1 of snack 3. Print Customer 1 Cash on hand. Print quantity of snack 3.
-- [ ] Customer 2 buys 2 of snack 4. Print Customer 2 Cash on Hand. Print quantity of snack 4.
-- [ ] Customer 1 finds $10. Print Customer 1 Cash on Hand.
-- [ ] Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity of snack 2.
-- [ ] Snack 3 gets 12 more. Print quantity of snack 3.
-- [ ] Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity of snack 3.
+- [x] Customer 1 buys 3 of snack 4. Print Customer 1 Cash on hand. Print quantity of snack 4.
+- [x] Customer 1 buys 1 of snack 3. Print Customer 1 Cash on hand. Print quantity of snack 3.
+- [x] Customer 2 buys 2 of snack 4. Print Customer 2 Cash on Hand. Print quantity of snack 4.
+- [x] Customer 1 finds $10. Print Customer 1 Cash on Hand.
+- [x] Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity of snack 2.
+- [x] Snack 3 gets 12 more. Print quantity of snack 3.
+- [x] Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity of snack 3.

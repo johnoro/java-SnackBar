@@ -48,4 +48,8 @@ public class Snack {
   public double getTotal(int quantity) {
     return cost * quantity;
   }
+
+  public void printQuantity() {
+    System.out.println("Quantity of " + name + "(s): " + quantity);
+  }
 }
