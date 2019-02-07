@@ -7,6 +7,7 @@ public class VendingMachine {
 
   public void VendingMachine(String name) {
     this.name = name;
+    id = currentId++;
   }
 
   public int getId() {
