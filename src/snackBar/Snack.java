@@ -8,7 +8,7 @@ public class Snack {
   private double cost;
   private int vendingMachineId;
 
-  public void Snack(String name, int amount, double cost, int vendingId) {
+  public Snack(String name, int amount, double cost, int vendingId) {
     this.name = name;
     quantity = amount;
     this.cost = cost;
