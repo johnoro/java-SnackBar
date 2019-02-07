@@ -15,7 +15,7 @@ vending machines where a person buys snacks from those machines.
 
 # Instructions
 
-- [ ] Snack class
+- [x] Snack class
 * Snack has id, name, quantity, cost, vending machine id\
 * Snack can set name, get quantity, add quantity given quantity, buy snack given quantity, get total cost given a quantity.
 
